@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.error {
+    color: red;
+}
+
+.spoiler{
+    color: #4c566a;
+    background-color:#4c566a;
+}
+
+.spoiler:hover {
+    background-color:#d8dee9;
+}
+
+a {
+    color: #b48ead;
+}
+
+/* Unvisited link  */
+a:visited {
+    color: #ffffff;
+}
+
+/* Visited link    */
+a:hover {
+    color: #4c566a;
+    text-decoration: none;
+}
+
+/* Mouse over link */
+a:active {
+    color: #b48ead;
+}
+
+/* Selected link   */
+
+body {
+    font-family: 'Roboto', serif;
+    background-color: #1b262c;
+    color: #d8dee9;
+    text-align: center;
+}
+
+h1 {
+    color: #bbe1fa;
+}
+
+input {
+    border-radius: 7px;
+    border-color: #5e81ac;
+    background-color: #81a1c1;
+    font-size: 18px;
+    color: #e5e9f0;
+    outline: none;
+}
+
+
+.name {
+    text-align: left;
+}
+
+input:focus {
+    box-shadow: 0px 0px 10px #8fbcbb;
+}
+
+button {
+    background-color: #88c0d0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    background: #88c0d0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.smallbutton {
+    display: inline-block;
+    width: 70px;
+    font-size: 15px;
+    height: 25px;
+    background: #88c0d0;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 5px solid #4c566a;
+    padding: 0px 10px 10px;
+}
+
+.logo {
+    border: 1px solid #3b4252;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.content {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

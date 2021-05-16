@@ -1,0 +1,21 @@
+<?php // Script 13.3 - header.html
+
+// Include the functions script:
+include('includes/functions.php'); ?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" media="all" href="css/style.css">
+	<title><?php
+	if (defined('TITLE')) {
+		print TITLE;
+	} else {
+		print 'Pollux';
+	}
+	?></title>
+</head>
+<body>
+	<h1>Pollux</h1>
+	<br>
+ 		<!-- BEGIN CHANGEABLE CONTENT. -->
